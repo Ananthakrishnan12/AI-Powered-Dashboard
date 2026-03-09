@@ -1,10 +1,12 @@
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
+import streamlit as slt
+# from dotenv import load_dotenv
 
 
-load_dotenv()
+# load_dotenv()
 
 llm=ChatOpenAI(
     model="gpt-4o-mini",
-    temperature=0.2
+    temperature=0.2,
+    api_key=st.secrets["OPENAI_API_KEY"]
 )
