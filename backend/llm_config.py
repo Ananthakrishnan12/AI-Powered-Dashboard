@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-import streamlit as slt
+import streamlit as st
 # from dotenv import load_dotenv
 
 
