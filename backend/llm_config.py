@@ -8,5 +8,5 @@ import streamlit as st
 llm=ChatOpenAI(
     model="gpt-4o-mini",
     temperature=0.2,
-    api_key=st.secrets["OPENAI_API_KEY"]
+    openai_api_key=st.secrets["OPENAI_API_KEY"]
 )
