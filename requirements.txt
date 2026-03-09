@@ -1,0 +1,7 @@
+crewai==0.28.8
+pandas
+plotly
+langchain-openai
+streamlit
+python-dotenv
+pydantic==2.7.1
