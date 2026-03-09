@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from backend.crew import run_ai_analysics
+from backend.crew import run_ai_analysis
 
 st.set_page_config(page_title="AI Dashboard Generator", layout="wide")
 

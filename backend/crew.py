@@ -5,7 +5,7 @@ from backend.tasks.data_tasks import data_task,analytical_task
 
 
 
-def run_ai_analysics():
+def run_ai_analysis():
     crew=Crew(
         agents=[
             data_agents ,
